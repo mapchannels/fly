@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Fly</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/main.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/layout_panels.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/earth.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/vehicle.js"></script>
+    <script src="js/fly.js"></script>
+    <script src="js/track.js"></script>
+    <script src="js/util.js"></script>
+    <script>
+        var apikey = "";
+        var lat = 43.6425;
+        var lng = -79.3871;
+        window.onload = fly.Initialize(apikey, lat, lng);
+    </script>
+</head>
+<body>
+    <div id="flydiv" style="width:100%; height:100vh; background-color:beige">Fly!</div>
+</body>
+</html>
